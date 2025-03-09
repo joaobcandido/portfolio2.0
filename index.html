@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Joao Candido</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    </head>
+
+<body>
+
+    <!--header design-->
+    <header>
+        <p class="logo"><span>João Candido <i class="bx bx-accessibility"></i></span></p>
+
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">SobreMim</a></li>
+            <li><a href="#experience">Experiências</a></li>
+            <li><a href="#portfolio">Projetos</a></li>
+            <li><a href="#services">Habilidades</a></li>
+        </ul>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+        <div class="home-div">
+            <div class="home-text">
+                <h3>Olá, eu sou</h3>
+                <h1>João Candido <span>PCD</span><i class="bx bx-accessibility"></i></h1>
+                <h3>Backend Developer</h3>
+            </div>
+            <div id="con
+            tainer">
+                <div class="steam" id="steam1"> </div>
+                <div class="steam" id="steam2"> </div>
+                <div class="steam" id="steam3"> </div>
+                <div class="steam" id="steam4"> </div>
+            
+                <div id="cup">
+                    <div id="cup-body">
+                        <div id="cup-shade"></div>
+                    </div>
+                    <div id="cup-handle"></div>
+                </div>
+                <div id="saucer"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--about section design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/foto.jpg">
+        </div>
+        <div class="about-text">
+            <h2>Sobre Mim</h2>
+            <h4>"Quem se compara se limita"</h4>
+            <p>&bull; Fui agricultor familiar até os 37 anos, tive um acidente de moto e fiquei anputado do pé esquerdo.</p>
+            <p>&bull; Com 45 anos me formei Bacharel em Engenharia de Computação.</p>
+            <p>&bull; 1 ano de experiência na TI.</p>
+            <p>&bull; 3º colocado no santander SX Brasil Award 2022.</p>
+            <p>&bull; Estudando uma formação Javaj.</p>
+            <div id="text-dowload-cv">
+                <h3>acesse minhas redes e baixe meu CV</h3>
+            </div> 
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/joaocandidos/" target="_blank" class="btn-socials"><span><i class="bx bxl-linkedin"></i></span></a>
+                <a href="https://github.com/joaobcandido" target="_blank" class="btn-socials"><span><i class="bx bxl-github"></i></a>
+                <button onclick="downloadCV()"><i id="cv" class="bx bxs-file-pdf"></i></button> 
+            </div>
+        </div>
+
+    </section>
+
+    <!--experience section design-->
+    <section class="experience" id="experience">
+        <div class="main-text">
+            <h2> Experiências de Trabalho</h2>
+        </div>
+
+        <div class="timeline">  
+
+            <div class="container">
+                <div class="text-box">
+                    <small>junho 2024 - <span>até o momento</span></small>
+                    <h5>PAUSA NA CARREIRA - <span><b>Motivos Pessoais</b></span></h5>
+                    <p>Tive que me afastar para resolver assuntos pessoais. </p>
+                        
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="text-box">
+                    <small>dezenbro 2022 - <span>maio 2024</span></small>
+                    <h5>DEVELOPER ASSISTANT - <span><b>Mercado Livre</b></span></h5>
+                    <p><span>Stack:</span> Golang,Jira,Postman,Datadog</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--portfolio section design-->
+    <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <h2>Meus Projetos Pessoais</h2>
+        </div>
+
+        <div class="portfolio-content">
+            <div class="row">
+                <a href="#projeto1">
+                <img class="tamanho__foto" src="img/loading.jpg" alt="testo">
+                </a>
+                <div class="projetos-codigo">
+                <h3>acesse o codigo:</h3>
+                <a href="" target="_blank" class="btn-socials"><span><i class="bx bxl-github"></i></a>
+                </div>
+            </div>
+            
+            <div class="row">
+                <a href="">
+                <img class="tamanho__foto" src="img/loading.jpg" alt="testo">
+                </a>
+                <div class="projetos-codigo">
+                <h3>acesse o codigo:</h3>
+                <a href="" target="_blank" class="btn-socials"><span><i class="bx bxl-github"></i></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <a href="">
+                <img class="tamanho__foto" src="img/loading.jpg" alt="testo">
+                </a>
+                <div class="projetos-codigo">
+                <h3>acesse o codigo:</h3>
+                <a href="" target="_blank" class="btn-socials"><span><i class="bx bxl-github"></i></a>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <!--about section design-->
+    <section class="services" id="services">
+        <div class="main-text">
+            <h2>Minhas Habilidades</h2>
+        </div>
+
+        <div class="services-content">
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bxl-go-lang"></i>
+                </div>
+                <h3>Golang</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bxl-java"></i>
+                </div>
+                <h3>Java</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bxl-git"></i>
+                </div>
+                <h3>Versionamento com Git</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="mdi mdi-jira"></i>
+                </div>
+                <h3>Metodologias ágeis com Jira</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bxs-file-json"></i>
+                </div>
+                <h3>Testes com Postman</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bxs-dashboard"></i>
+                </div>
+                <h3>Dashboards com Datadog</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bx-question-mark"></i>
+                </div>
+                <h3>carregando...</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bx-question-mark"></i>
+                </div>
+                <h3>carregando...</h3>
+            </div>
+
+            <div class="box">
+                <div class="s-icons">
+                    <i class="bx bx-question-mark"></i>
+                </div>
+                <h3>carregando...</h3>
+            </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projeto1">
+        <div class="about-text">
+            <h2>CRUD API</h2>
+            <p>A modelagem dessa aplicação tem por objetivo desenvolver um crud de produtos</p>
+            <div class="projetos">
+            <video  width="100%" height="100%" controls autoplay >
+                <source src="" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+            </div>
+        </div >
+    </section>
+
+        
+    
+    <!--end section design-->
+    <section class="end">
+        <div class="last-text">
+            <p>Copyright &#169; 2024 by João Candido PCD</p>
+        </div>
+    </section>
+    
+    
+    <!--custom js link-->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
